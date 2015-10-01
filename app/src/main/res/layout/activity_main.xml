@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="선택을 시작하시겠습니까?"
+            android:textSize="15sp"
+            android:padding="10dp" />
+    <Switch
+            android:id="@+id/A1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="10dp"
+            android:textOn="시작함"
+            android:textOff="종료함" />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="좋아하는 안드로이드 버전은?"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:id="@+id/T1" />
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/G1">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Gg1"
+                android:text="젤리빈(4.3)" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="킷캣(4.4)"
+                android:id="@+id/Gg2" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="롤리팝(5.0)"
+                android:id="@+id/Gg3" />
+        </RadioGroup>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/I"
+            android:visibility="invisible" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종료"
+            android:id="@+id/B1"
+            android:visibility="visible"
+            android:textSize="15sp" />
+
+
+
+
+        <Button
+
+            android:id="@+id/B2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="처음으로"
+
+            android:textSize="15sp"
+
+            android:visibility="visible" />
+
+    // android:src="@drawable/ic_launcher"
+
+    </LinearLayout>
+
